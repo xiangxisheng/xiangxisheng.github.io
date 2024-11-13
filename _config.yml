@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Xixi Tech Network - XiXi技术网
+email: xiangxisheng@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Xixi Tech Network, focused on sharing network technologies,
+  covering practices and cutting-edge knowledge in network development,
+  operations, and engineering, helping professionals enhance their skills.
+  XiXi技术网，专注于分享网络技术，涵盖网络开发、运维与工程领域的实践与前沿知识，帮助技术人员提升专业技能。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.xiangxisheng.cn" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: xiangxisheng
+github_username:  xiangxisheng
 
 # Build settings
 theme: minima
@@ -53,3 +54,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+permalink: /posts/:categories/:year-:month-:day-:title.html

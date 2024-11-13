@@ -1,5 +1,5 @@
 @echo off
-title xiangxisheng.cn - jekyll build --watch --incremental
+title xiangxisheng.cn - jekyll build --watch
 cd /d %~dp0..
-bundle exec jekyll build --watch --incremental
+start /b /wait bundle exec jekyll build --watch
 pause
