@@ -1,0 +1,24 @@
+- sitename: GitHub
+  name: xiangxisheng
+  url: https://github.com/xiangxisheng
+
+- sitename: 博客
+  name: 项希盛
+  url: http://xiangxisheng.cn
+
+- sitename: 微博
+  name: xiangxisheng
+  url: http://weibo.com/xiangxisheng
+
+- sitename: Facebook
+  name: xiangxisheng
+  url: http://fb.me/xiangxisheng
+
+- sitename: QQ号码
+  name: 309385018
+  url: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=309385018
+
+- sitename: QQ邮箱
+  name: 309385018@qq.com
+  url: mailto:309385018@qq.com
+

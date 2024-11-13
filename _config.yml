@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Xixi Tech Network, focused on sharing network technologies,
   covering practices and cutting-edge knowledge in network development,
   operations, and engineering, helping professionals enhance their skills.
+description_cn: >- # this means to ignore newlines until "baseurl:"
   XiXi技术网，专注于分享网络技术，涵盖网络开发、运维与工程领域的实践与前沿知识，帮助技术人员提升专业技能。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xiangxisheng.cn" # the base hostname & protocol for your site, e.g. http://example.com
