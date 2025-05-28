@@ -1,7 +1,6 @@
 ---
 layout: post
 categories: network
-filename: download-country-ip-cidr
 name: download-country-ip-cidr
 title: 下载某个国家所有的IP地址CIDR
 date: 2025-05-28 20:42:00 +07:00
