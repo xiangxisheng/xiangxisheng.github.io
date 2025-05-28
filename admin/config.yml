@@ -12,11 +12,11 @@ collections:
     label: '网络'
     folder: '_posts/network'
     create: true
-    slug: '{{fields.name}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{fields.name}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: '分类', name: 'categories', widget: 'list', default: 'network' }
-      - { label: '文件名', name: 'name', widget: 'string' }
+      - { label: '分类', name: 'categories', widget: 'hidden', default: 'network' }
+      - { label: '英文名', name: 'name', widget: 'string' }
       - { label: '标题', name: 'title', widget: 'string' }
       - { label: '日期', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD HH:mm:ss Z' }
       - { label: '正文', name: 'body', widget: 'markdown' }
