@@ -12,10 +12,11 @@ collections:
     label: '网络'
     folder: '_posts/network'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{fields.filename}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: '分类', name: 'categories', widget: 'list', default: 'network' }
+      - { label: '文件名', name: 'filename', widget: 'string' }
       - { label: '标题', name: 'title', widget: 'string' }
       - { label: '日期', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD HH:mm:ss Z' }
       - { label: '正文', name: 'body', widget: 'markdown' }
