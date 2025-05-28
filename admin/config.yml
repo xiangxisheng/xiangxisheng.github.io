@@ -5,14 +5,17 @@ backend:
 media_folder: 'assets/uploads'
 public_folder: '/assets/uploads'
 
+locale: 'zh_Hans'
+
 collections:
-  - name: 'posts'
-    label: '文章'
-    folder: '_posts/'
+  - name: 'network'
+    label: '网络'
+    folder: '_posts/network'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: '分类', name: 'categories', widget: 'list', default: 'network' }
       - { label: '标题', name: 'title', widget: 'string' }
-      - { label: '日期', name: 'date', widget: 'datetime' }
+      - { label: '日期', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD HH:mm:ss Z' }
       - { label: '正文', name: 'body', widget: 'markdown' }
